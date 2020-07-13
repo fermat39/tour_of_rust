@@ -78,6 +78,16 @@ common_words:
     toc: 目次
     lessons: レッスン
     untranslated: 未翻訳
+  ko:
+    chapter: 장
+    tor: Rust로의 여행
+    next: 다음
+    previous: 이전
+    toc: 목록
+    lessons: 수업
+    untranslated: Untranslated
+    welcometothe: "환영합니다"
+    presstocontinue: "계속하려면 키를 눌러주세요"    
 pages:
   - en:
       title: "Hello, <img src=\"/favicon-32x32.png\" style=\"display:inline; vertical-align:bottom\">"
@@ -308,6 +318,34 @@ pages:
         キーボードの <span class="emoji">⬅️</span> と <span class="emoji">➡️</span> でツアーをナビゲートできます。
 
         この古典的な例では、Rust が Unicode 文字列をサポートしていることを示します。
+    ko:
+      title: "Hello, <img src=\"/favicon-32x32.png\" style=\"display:inline; vertical-align:bottom\">"
+      code: https://play.rust-lang.org/?version=stable&mode=debug&edition=2018&code=fn%20main()%20%7B%0A%20%20%20%20println!(%22Hello%2C%20%F0%9F%A6%80%22)%3B%0A%7D%0A
+      content_markdown: |
+        Welcome to the *Tour of Rust*. This is meant to be a step by
+        step guide through the features of the Rust programming language.  Rust is often
+        considered a language with a steep learning curve, but I hope I can convince you there's
+        a lot to explore before we even get to complex parts.</p><p>You can find this
+        guide in these languages:
+
+        * [Deutsch](00_de.html)
+        * [English](00_en.html)
+        * [Español](00_es.html)
+        * [Français](00_fr.html)
+        * [Interlingue](00_ie.html)
+        * [Português Brasileiro](00_pt-br.html)
+        * [Русский](00_ru.html)
+        * [简体中文](00_zh-cn.html)
+        * [日本語](00_ja.html)
+
+        If you have suggestions on content
+        or would like to contribute to translations, check out Tour of Rust's 
+        [github repository](https://github.com/richardanaya/tour_of_rust).
+
+        You can navigate through the tour with keyboard <span class="emoji">⬅️</span> and <span class="emoji">➡️</span>
+
+        In this classic example we show Rust's support for Unicode
+        strings.       
   - chapter: 1
     en:
       title: Chapter 1 - The Basics
